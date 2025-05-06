@@ -2,12 +2,14 @@
 
 This project involved the creation of an interactive dashboard 📊 to analyze the performance of a Conditional Random Field (CRF) model trained for Thai address extraction 🇹🇭. The dashboard provides insights ✨ into the model's accuracy in identifying key address components, particularly provinces.
 
+![Link to Dashboad](https://public.tableau.com/app/profile/nipun.angkavichai3120/viz/InfoVisModelInterpretation2/2_1)
+
 ![visual analytics for crf](visual_analytics_crf.png)
 
 ## Key Visualizations
 
 - **Province Prediction Accuracy:** A bar chart 📈 visualizing the percentage of correct province predictions ✅, along with the frequency of each province in the dataset. This allows for a direct comparison 🔍 of prediction success across different provinces.
-- Incorrect Province Tagging: A stacked bar chart 📊 illustrating the percentage of times each province (LOC tag📍) was incorrectly predicted as other tags ❌. This highlights common misclassifications.
+- **Incorrect Province Tagging:** A stacked bar chart 📊 illustrating the percentage of times each province (LOC tag📍) was incorrectly predicted as other tags ❌. This highlights common misclassifications.
 - **Surrounding Word Tagging Analysis:** A 100% stacked bar chart 💯 showing the distribution of predicted tag categories for words surrounding correctly 👍 and incorrectly 👎 identified O, ADDR, and POST tags 🏷️. This helps understand the contextual factors 🤔 influencing prediction accuracy.
 
 ## Interactive Features
