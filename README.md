@@ -4,7 +4,7 @@ This project involved the creation of an interactive dashboard 📊 to analyze t
 
 
 
-![Link to Dashboad](https://public.tableau.com/views/InfoVisModelInterpretation2/2_1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Link to Dashboad](https://public.tableau.com/views/InfoVisModelInterpretation2/2_1?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ![visual analytics for crf](visual_analytics_crf.png)
 
