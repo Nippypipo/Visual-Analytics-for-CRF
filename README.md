@@ -2,7 +2,9 @@
 
 This project involved the creation of an interactive dashboard 📊 to analyze the performance of a Conditional Random Field (CRF) model trained for Thai address extraction 🇹🇭. The dashboard provides insights ✨ into the model's accuracy in identifying key address components, particularly provinces.
 
-Key Visualizations:
+![visual analytics.png]
+
+## Key Visualizations
 
 Province Prediction Accuracy: A bar chart 📈 visualizing the percentage of correct province predictions ✅, along with the frequency of each province in the dataset. This allows for a direct comparison 🔍 of prediction success across different provinces.
 Incorrect Province Tagging: A stacked bar chart 📊 illustrating the percentage of times each province (LOC tag📍) was incorrectly predicted as other tags ❌. This highlights common misclassifications.
@@ -16,7 +18,7 @@ Data and Task:
 
 The dataset utilized was derived from the pythainlp/thainer-corpus-v2.2 📚. The original NER tags B-LOCATION and I-LOCATION for provinces, sub-districts, and districts were unified into a single LOC tag 📍. Similarly, B-ZIP was relabeled as POST 📮 to align with the model's predicted tags and facilitate analysis. Thai province, sub-district, and district data from https://github.com/ThepExcel/download/blob/master/ThepExcel-Thailand-Tambon.xlsx 🔗 was used for this tag transformation.
 
-Insights and Findings:
+## Insights and Findings
 
 Our initial hypothesis 💡 was that the CRF model would perform less accurately on provinces outside of Bangkok and its vicinity. The developed analytical system 🔎 confirmed this hypothesis:
 
