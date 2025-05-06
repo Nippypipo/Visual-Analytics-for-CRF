@@ -2,7 +2,7 @@
 
 This project involved the creation of an interactive dashboard 📊 to analyze the performance of a Conditional Random Field (CRF) model trained for Thai address extraction 🇹🇭. The dashboard provides insights ✨ into the model's accuracy in identifying key address components, particularly provinces.
 
-![visual analytics for crf.png](visual analytics for crf.png)
+![visual analytics for crf](visual_analytics_crf.png)
 
 ## Key Visualizations
 
